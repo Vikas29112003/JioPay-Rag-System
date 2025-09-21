@@ -1,0 +1,146 @@
+================================================================================
+CHUNKING STRATEGY ANALYSIS REPORT
+================================================================================
+
+
+📊 STRATEGY: RECURSIVE
+--------------------------------------------------
+  Config: depth_3
+    • Total Chunks: 97
+    • Avg Tokens: 44.2
+    • Token Std Dev: 22.0
+    • Processing Time: 27.1ms
+    • Token Consistency: 0.668
+    • Length Consistency: 0.638
+
+
+📊 STRATEGY: SEMANTIC
+--------------------------------------------------
+  Config: sim_0.7
+    • Total Chunks: 213
+    • Avg Tokens: 20.1
+    • Token Std Dev: 10.0
+    • Processing Time: 2582.1ms
+    • Token Consistency: 0.667
+    • Length Consistency: 0.648
+
+  Config: sim_0.6
+    • Total Chunks: 179
+    • Avg Tokens: 23.9
+    • Token Std Dev: 14.9
+    • Processing Time: 2653.9ms
+    • Token Consistency: 0.616
+    • Length Consistency: 0.601
+
+  Config: sim_0.8
+    • Total Chunks: 241
+    • Avg Tokens: 17.8
+    • Token Std Dev: 8.5
+    • Processing Time: 3120.9ms
+    • Token Consistency: 0.676
+    • Length Consistency: 0.650
+
+
+📊 STRATEGY: FIXED
+--------------------------------------------------
+  Config: size_1024_overlap_64
+    • Total Chunks: 97
+    • Avg Tokens: 44.2
+    • Token Std Dev: 22.0
+    • Processing Time: 21.3ms
+    • Token Consistency: 0.668
+    • Length Consistency: 0.638
+
+  Config: size_256_overlap_128
+    • Total Chunks: 97
+    • Avg Tokens: 44.2
+    • Token Std Dev: 22.0
+    • Processing Time: 22.7ms
+    • Token Consistency: 0.668
+    • Length Consistency: 0.638
+
+  Config: size_256_overlap_64
+    • Total Chunks: 97
+    • Avg Tokens: 44.2
+    • Token Std Dev: 22.0
+    • Processing Time: 19.2ms
+    • Token Consistency: 0.668
+    • Length Consistency: 0.638
+
+  Config: size_512_overlap_128
+    • Total Chunks: 97
+    • Avg Tokens: 44.2
+    • Token Std Dev: 22.0
+    • Processing Time: 20.7ms
+    • Token Consistency: 0.668
+    • Length Consistency: 0.638
+
+  Config: size_256
+    • Total Chunks: 97
+    • Avg Tokens: 44.2
+    • Token Std Dev: 22.0
+    • Processing Time: 38.0ms
+    • Token Consistency: 0.668
+    • Length Consistency: 0.638
+
+  Config: size_1024_overlap_128
+    • Total Chunks: 97
+    • Avg Tokens: 44.2
+    • Token Std Dev: 22.0
+    • Processing Time: 24.7ms
+    • Token Consistency: 0.668
+    • Length Consistency: 0.638
+
+  Config: size_512_overlap_64
+    • Total Chunks: 97
+    • Avg Tokens: 44.2
+    • Token Std Dev: 22.0
+    • Processing Time: 23.6ms
+    • Token Consistency: 0.668
+    • Length Consistency: 0.638
+
+  Config: size_512
+    • Total Chunks: 97
+    • Avg Tokens: 44.2
+    • Token Std Dev: 22.0
+    • Processing Time: 21.0ms
+    • Token Consistency: 0.668
+    • Length Consistency: 0.638
+
+  Config: size_1024
+    • Total Chunks: 97
+    • Avg Tokens: 44.2
+    • Token Std Dev: 22.0
+    • Processing Time: 25.6ms
+    • Token Consistency: 0.668
+    • Length Consistency: 0.638
+
+
+📊 STRATEGY: STRUCTURAL
+--------------------------------------------------
+  Config: default
+    • Total Chunks: 97
+    • Avg Tokens: 44.2
+    • Token Std Dev: 22.0
+    • Processing Time: 26.1ms
+    • Token Consistency: 0.668
+    • Length Consistency: 0.638
+
+
+🏆 OVERALL RANKINGS
+==================================================
+
+Top 5 Configurations (by composite score):
+Rank | Strategy | Config | Score | Avg Tokens | Consistency | Speed
+----------------------------------------------------------------------
+   1 | fixed      | size_256_overlap_64 | 0.826 |     44.2 | 0.653 |   19.2ms
+   2 | fixed      | size_512_overlap_128 | 0.825 |     44.2 | 0.653 |   20.7ms
+   3 | fixed      | size_512        | 0.825 |     44.2 | 0.653 |   21.0ms
+   4 | fixed      | size_1024_overlap_64 | 0.825 |     44.2 | 0.653 |   21.3ms
+   5 | fixed      | size_256_overlap_128 | 0.825 |     44.2 | 0.653 |   22.7ms
+
+📈 BEST BY CATEGORY:
+• Fastest: fixed - size_256_overlap_64 (19.2ms)
+• Most Consistent: semantic - sim_0.8 (score: 0.663)
+• Most Efficient: recursive - depth_3 (score: 1.000)
+• Overall Winner: fixed - size_256_overlap_64 (composite score: 0.826)
