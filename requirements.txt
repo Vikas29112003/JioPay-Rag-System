@@ -1,4 +1,5 @@
-# JioPay RAG System 
+
+pymongo==4.10.1
 
 annotated-types==0.7.0
 attrs==25.3.0
