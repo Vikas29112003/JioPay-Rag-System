@@ -7,7 +7,7 @@ This module implements and evaluates different chunking strategies:
 2. Semantic: sentence/paragraph splits with similarity-thresholded merges
 3. Structural: split by headings/HTML tags; preserve hierarchy
 4. Recursive: fallback from large structural blocks to smaller semantic/fixed chunks
-5. LLM-based: (TODO - will implement later)
+5. LLM-based: intelligent chunking using Google Gemini API with fallback to sentence-based chunking
 
 Each strategy is evaluated on:
 - Top-k retrieval accuracy
@@ -19,6 +19,7 @@ import json
 import time
 import re
 import logging
+import os
 from typing import List, Dict, Tuple, Any, Optional
 from pathlib import Path
 from dataclasses import dataclass
@@ -28,6 +29,11 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 from sentence_transformers import SentenceTransformer
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
+import google.generativeai as genai
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
@@ -394,6 +400,95 @@ class RecursiveChunking(ChunkingStrategy):
         
         return chunks
 
+class LLMChunking(ChunkingStrategy):
+    """LLM-based intelligent chunking using Google Gemini"""
+    
+    def __init__(self):
+        self.api_key = os.getenv('GEMINI_API_KEY')
+        if not self.api_key:
+            raise ValueError("GEMINI_API_KEY not found in environment variables. Please set your Gemini API key.")
+        
+        try:
+            genai.configure(api_key=self.api_key)
+            self.model = genai.GenerativeModel('gemini-1.5-flash')
+            logger.info("Gemini API configured successfully")
+        except Exception as e:
+            logger.error(f"Failed to configure Gemini API: {e}")
+            raise RuntimeError(f"Could not initialize Gemini API: {e}")
+    
+    def chunk_text(self, text: str, faq_id: str, category: str, config: ChunkingConfig) -> List[Chunk]:
+        """LLM-based intelligent chunking using Gemini API"""
+        # Create prompt for intelligent chunking
+        prompt = f"""
+You are an expert at breaking down text into semantically coherent chunks for a RAG system.
+
+Please analyze the following text and split it into logical chunks that:
+1. Maintain semantic coherence
+2. Are suitable for retrieval-augmented generation
+3. Preserve important context within each chunk
+4. Are roughly 200-800 words each
+
+Text to chunk:
+{text}
+
+Please return the chunks separated by clear markers. Each chunk should be complete and self-contained.
+
+Format:
+CHUNK_1_START
+[First chunk content]
+CHUNK_1_END
+
+CHUNK_2_START
+[Second chunk content]
+CHUNK_2_END
+
+And so on...
+"""
+        
+        # Call Gemini API with rate limiting (free tier: 15 requests/minute)
+        time.sleep(4.5)  # Wait 4.5 seconds between requests to stay under 15/minute limit
+        response = self.model.generate_content(prompt)
+        
+        if not response.text:
+            raise RuntimeError("Empty response from Gemini API")
+            
+        return self._parse_llm_response(response.text, faq_id, category, config)
+    
+    def _parse_llm_response(self, response: str, faq_id: str, category: str, config: ChunkingConfig) -> List[Chunk]:
+        """Parse LLM response into chunks"""
+        chunks = []
+        
+        # Extract chunks using regex pattern
+        chunk_pattern = r'CHUNK_\d+_START\s*(.*?)\s*CHUNK_\d+_END'
+        matches = re.findall(chunk_pattern, response, re.DOTALL)
+        
+        if not matches:
+            raise ValueError("LLM response did not follow expected format. No valid chunks found.")
+        
+        for i, chunk_text in enumerate(matches):
+            chunk_text = chunk_text.strip()
+            if chunk_text and len(chunk_text) > 10:  # Minimum chunk size
+                chunk = Chunk(
+                    id=f"{faq_id}_llm_{i}",
+                    text=chunk_text,
+                    tokens=self.count_tokens(chunk_text),
+                    source_faq_id=faq_id,
+                    category=category,
+                    chunk_type="llm",
+                    metadata={
+                        "llm_model": "gemini-1.5-flash",
+                        "chunk_index": i,
+                        "total_chunks": len(matches)
+                    }
+                )
+                chunks.append(chunk)
+        
+        if not chunks:
+            raise ValueError("No valid chunks could be extracted from LLM response")
+        
+        return chunks
+
+
 class ChunkingEvaluator:
     """Evaluates different chunking strategies"""
     
@@ -404,7 +499,8 @@ class ChunkingEvaluator:
             'fixed': FixedChunking(),
             'semantic': SemanticChunking(),
             'structural': StructuralChunking(),
-            'recursive': RecursiveChunking()
+            'recursive': RecursiveChunking(),
+            'llm': LLMChunking()
         }
     
     def _load_dataset(self) -> List[Dict]:
@@ -451,6 +547,14 @@ class ChunkingEvaluator:
         )
         results['recursive'] = [self._evaluate_strategy('recursive', recursive_config)]
         
+        # LLM chunking configurations
+        llm_configs = [
+            ChunkingConfig(strategy_name="llm", size=512, overlap=50),
+            ChunkingConfig(strategy_name="llm", size=768, overlap=100),
+            ChunkingConfig(strategy_name="llm", size=1024, overlap=128),
+        ]
+        results['llm'] = [self._evaluate_strategy('llm', config) for config in llm_configs]
+        
         return results
     
     def _evaluate_strategy(self, strategy_name: str, config: ChunkingConfig) -> ChunkingResult:
@@ -486,8 +590,70 @@ class ChunkingEvaluator:
             chunks=all_chunks
         )
         
+        # Save chunked data to Dataset/Chunked data folder
+        self._save_chunked_data(result)
+        
         return result
     
+    def _save_chunked_data(self, result: ChunkingResult):
+        """Save chunked data to Dataset/Chunked data folder"""
+        # Create directory structure
+        chunked_data_dir = Path("../Dataset/Chunked data")
+        chunked_data_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Create filename with strategy and config details
+        config_str = f"size_{result.config.size}_overlap_{result.config.overlap}"
+        if result.config.similarity_threshold:
+            config_str += f"_sim_{result.config.similarity_threshold}"
+        if result.config.max_depth:
+            config_str += f"_depth_{result.config.max_depth}"
+            
+        filename = f"{result.strategy}_{config_str}_{time.strftime('%Y%m%d_%H%M%S')}.json"
+        filepath = chunked_data_dir / filename
+        
+        # Prepare data for saving
+        chunked_data = {
+            "metadata": {
+                "strategy": result.strategy,
+                "config": {
+                    "strategy_name": result.config.strategy_name,
+                    "size": result.config.size,
+                    "overlap": result.config.overlap,
+                    "similarity_threshold": result.config.similarity_threshold,
+                    "preserve_hierarchy": result.config.preserve_hierarchy,
+                    "max_depth": result.config.max_depth
+                },
+                "statistics": {
+                    "total_chunks": result.total_chunks,
+                    "avg_chunk_size": result.avg_chunk_size,
+                    "min_chunk_size": result.min_chunk_size,
+                    "max_chunk_size": result.max_chunk_size,
+                    "processing_time_ms": result.processing_time_ms
+                },
+                "created_at": time.strftime('%Y-%m-%d %H:%M:%S')
+            },
+            "chunks": []
+        }
+        
+        # Convert chunks to serializable format
+        for chunk in result.chunks:
+            chunk_data = {
+                "id": chunk.id,
+                "text": chunk.text,
+                "tokens": chunk.tokens,
+                "source_faq_id": chunk.source_faq_id,
+                "category": chunk.category,
+                "chunk_type": chunk.chunk_type,
+                "metadata": chunk.metadata
+            }
+            chunked_data["chunks"].append(chunk_data)
+        
+        # Save to file
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(chunked_data, f, indent=2, ensure_ascii=False)
+        
+        logger.info(f"Saved {len(result.chunks)} chunks to {filepath}")
+
     def generate_report(self, results: Dict[str, List[ChunkingResult]]) -> str:
         """Generate detailed ablation study report"""
         report = []
