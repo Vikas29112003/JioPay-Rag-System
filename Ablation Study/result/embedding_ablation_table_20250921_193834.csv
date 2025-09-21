@@ -1,0 +1,4 @@
+Model,Recall@5,MRR,Index Size (MB),Avg. Cost / 1k queries,Embedding Dim,Avg Query Time (ms)
+e5-base,0.0000,0.0000,0.28,$0.000000,768,0.90
+minilm,0.0000,0.0000,0.14,$0.000000,384,0.60
+bge-base,0.0000,0.0000,0.28,$0.000000,768,1.07

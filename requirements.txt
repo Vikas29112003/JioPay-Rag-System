@@ -1,0 +1,6 @@
+# Requirements for structural data embedding
+sentence-transformers>=2.2.2
+torch>=1.9.0
+numpy>=1.21.0
+tqdm>=4.64.0
+transformers>=4.21.0

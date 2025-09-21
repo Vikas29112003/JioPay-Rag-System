@@ -1,0 +1,18 @@
+{
+  "embedding_summary": {
+    "created_at": "20250921_192605",
+    "models_processed": 1,
+    "successful_models": 1,
+    "failed_models": 0,
+    "results": {
+      "minilm": {
+        "output_path": "/home/vikas/Desktop/LLM_Assignment_02/JioPay-Rag-System/Dataset/Embeded data/structural_embeddings_minilm_20250921_192605.json",
+        "embedding_shape": [
+          97,
+          384
+        ],
+        "model_full_name": "sentence-transformers/all-MiniLM-L6-v2"
+      }
+    }
+  }
+}

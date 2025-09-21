@@ -1,0 +1,1238 @@
+{
+  "e5-base": {
+    "model_name": "e5-base",
+    "avg_recall_at_5": 0.0,
+    "avg_mrr": 0.0,
+    "avg_query_time_ms": 1.9931435585021973,
+    "embedding_dimension": 768,
+    "total_chunks": 97,
+    "individual_results": [
+      {
+        "query_id": "query_0",
+        "retrieved_ids": [
+          "faq_1_structural_0",
+          "faq_4_structural_0",
+          "faq_84_structural_0",
+          "faq_75_structural_0",
+          "faq_90_structural_0"
+        ],
+        "scores": [
+          0.9036165773742137,
+          0.9031928013360031,
+          0.8794359470623985,
+          0.8778831047359175,
+          0.8778252564168991
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.02538275718688965
+      },
+      {
+        "query_id": "query_1",
+        "retrieved_ids": [
+          "faq_1_structural_0",
+          "faq_0_structural_0",
+          "faq_84_structural_0",
+          "faq_5_structural_0",
+          "faq_43_structural_0"
+        ],
+        "scores": [
+          0.9134497309435794,
+          0.9031928013360031,
+          0.8639851981038214,
+          0.8590812297068943,
+          0.8541111505760225
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0007266998291015625
+      },
+      {
+        "query_id": "query_2",
+        "retrieved_ids": [
+          "faq_12_structural_0",
+          "faq_11_structural_0",
+          "faq_7_structural_0",
+          "faq_6_structural_0",
+          "faq_10_structural_0"
+        ],
+        "scores": [
+          0.9169280139951982,
+          0.9039583487463632,
+          0.8652375147992473,
+          0.8544407579549379,
+          0.840599024217565
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0004966259002685547
+      },
+      {
+        "query_id": "query_3",
+        "retrieved_ids": [
+          "faq_11_structural_0",
+          "faq_8_structural_0",
+          "faq_7_structural_0",
+          "faq_6_structural_0",
+          "faq_10_structural_0"
+        ],
+        "scores": [
+          0.9378388585420891,
+          0.9169280139951982,
+          0.8661584038257818,
+          0.8518330947633279,
+          0.8452964628546862
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0005297660827636719
+      },
+      {
+        "query_id": "query_4",
+        "retrieved_ids": [
+          "faq_17_structural_0",
+          "faq_20_structural_0",
+          "faq_87_structural_0",
+          "faq_93_structural_0",
+          "faq_76_structural_0"
+        ],
+        "scores": [
+          0.8782073481358861,
+          0.8326049605605699,
+          0.8163618248140233,
+          0.8099165971605271,
+          0.8067448830097712
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.00046896934509277344
+      },
+      {
+        "query_id": "query_5",
+        "retrieved_ids": [
+          "faq_6_structural_0",
+          "faq_17_structural_0",
+          "faq_16_structural_0",
+          "faq_10_structural_0",
+          "faq_36_structural_0"
+        ],
+        "scores": [
+          0.8461085128839125,
+          0.8380756945599459,
+          0.8326049605605699,
+          0.8176947674167545,
+          0.814138242609266
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0005040168762207031
+      },
+      {
+        "query_id": "query_6",
+        "retrieved_ids": [
+          "faq_23_structural_0",
+          "faq_31_structural_0",
+          "faq_41_structural_0",
+          "faq_22_structural_0",
+          "faq_36_structural_0"
+        ],
+        "scores": [
+          0.9197967562660886,
+          0.8608796903099223,
+          0.8493679460597265,
+          0.8433224941682138,
+          0.839915576749339
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0004658699035644531
+      },
+      {
+        "query_id": "query_7",
+        "retrieved_ids": [
+          "faq_30_structural_0",
+          "faq_37_structural_0",
+          "faq_26_structural_0",
+          "faq_29_structural_0",
+          "faq_83_structural_0"
+        ],
+        "scores": [
+          0.849258434450407,
+          0.8312229998363433,
+          0.8302206469658893,
+          0.824259875732666,
+          0.8241764972265375
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.00049591064453125
+      },
+      {
+        "query_id": "query_8",
+        "retrieved_ids": [
+          "faq_37_structural_0",
+          "faq_34_structural_0",
+          "faq_31_structural_0",
+          "faq_73_structural_0",
+          "faq_38_structural_0"
+        ],
+        "scores": [
+          0.8722357749762888,
+          0.8628901092352981,
+          0.8591871305023704,
+          0.8539761273024697,
+          0.8538807684932629
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0005435943603515625
+      },
+      {
+        "query_id": "query_9",
+        "retrieved_ids": [
+          "faq_40_structural_0",
+          "faq_31_structural_0",
+          "faq_38_structural_0",
+          "faq_5_structural_0",
+          "faq_34_structural_0"
+        ],
+        "scores": [
+          0.9396022655680979,
+          0.9118404651656701,
+          0.8992301013482595,
+          0.8967423943010362,
+          0.8845661977150026
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.000469207763671875
+      },
+      {
+        "query_id": "query_10",
+        "retrieved_ids": [
+          "faq_36_structural_0",
+          "faq_34_structural_0",
+          "faq_38_structural_0",
+          "faq_31_structural_0",
+          "faq_5_structural_0"
+        ],
+        "scores": [
+          0.9396022655680979,
+          0.8746112148054263,
+          0.8678404087046492,
+          0.8572739936623027,
+          0.8413465381878366
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0007426738739013672
+      },
+      {
+        "query_id": "query_11",
+        "retrieved_ids": [
+          "faq_43_structural_0",
+          "faq_48_structural_0",
+          "faq_51_structural_0",
+          "faq_46_structural_0",
+          "faq_61_structural_0"
+        ],
+        "scores": [
+          0.9293550362227871,
+          0.9106985215070305,
+          0.9066651171036004,
+          0.8993896300429222,
+          0.8956607048489862
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0004832744598388672
+      },
+      {
+        "query_id": "query_12",
+        "retrieved_ids": [
+          "faq_44_structural_0",
+          "faq_46_structural_0",
+          "faq_47_structural_0",
+          "faq_49_structural_0",
+          "faq_62_structural_0"
+        ],
+        "scores": [
+          0.9106985215070305,
+          0.8993728497794338,
+          0.8985352818015375,
+          0.8974791060344194,
+          0.883705502903391
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0005552768707275391
+      },
+      {
+        "query_id": "query_13",
+        "retrieved_ids": [
+          "faq_53_structural_0",
+          "faq_44_structural_0",
+          "faq_54_structural_0",
+          "faq_57_structural_0",
+          "faq_43_structural_0"
+        ],
+        "scores": [
+          0.9011283921940532,
+          0.8788169999069035,
+          0.8652114924111034,
+          0.8632799640996621,
+          0.8519086610061644
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0006806850433349609
+      },
+      {
+        "query_id": "query_14",
+        "retrieved_ids": [
+          "faq_50_structural_0",
+          "faq_52_structural_0",
+          "faq_46_structural_0",
+          "faq_59_structural_0",
+          "faq_53_structural_0"
+        ],
+        "scores": [
+          0.8455001493179002,
+          0.8443122072846525,
+          0.8438389783989975,
+          0.8428460414510569,
+          0.8371803634685833
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0009160041809082031
+      },
+      {
+        "query_id": "query_15",
+        "retrieved_ids": [
+          "faq_61_structural_0",
+          "faq_44_structural_0",
+          "faq_58_structural_0",
+          "faq_49_structural_0",
+          "faq_52_structural_0"
+        ],
+        "scores": [
+          0.8541151650888315,
+          0.8482411485385256,
+          0.8400627396727928,
+          0.8375639238084898,
+          0.8373143318367154
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0014736652374267578
+      },
+      {
+        "query_id": "query_16",
+        "retrieved_ids": [
+          "faq_65_structural_0",
+          "faq_70_structural_0",
+          "faq_66_structural_0",
+          "faq_68_structural_0",
+          "faq_71_structural_0"
+        ],
+        "scores": [
+          0.9002053943555255,
+          0.8823904093960291,
+          0.876697384704278,
+          0.8682401816845533,
+          0.8555608801957225
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0022721290588378906
+      },
+      {
+        "query_id": "query_17",
+        "retrieved_ids": [
+          "faq_65_structural_0",
+          "faq_64_structural_0",
+          "faq_66_structural_0",
+          "faq_70_structural_0",
+          "faq_71_structural_0"
+        ],
+        "scores": [
+          0.8800500028937785,
+          0.8682401816845533,
+          0.8670428210058974,
+          0.8648463349794409,
+          0.8574892939915747
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0009856224060058594
+      },
+      {
+        "query_id": "query_18",
+        "retrieved_ids": [
+          "faq_68_structural_0",
+          "faq_74_structural_0",
+          "faq_66_structural_0",
+          "faq_65_structural_0",
+          "faq_70_structural_0"
+        ],
+        "scores": [
+          0.8470380421800026,
+          0.8447966391515425,
+          0.8381449683751381,
+          0.821192621554534,
+          0.8198010353424758
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0007936954498291016
+      },
+      {
+        "query_id": "query_19",
+        "retrieved_ids": [
+          "faq_75_structural_0",
+          "faq_90_structural_0",
+          "faq_77_structural_0",
+          "faq_1_structural_0",
+          "faq_0_structural_0"
+        ],
+        "scores": [
+          0.9236699396781569,
+          0.8859248570816773,
+          0.8786434420610869,
+          0.8707694242135491,
+          0.8683789647078006
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0008764266967773438
+      }
+    ],
+    "index_size_mb": 0.2841796875,
+    "cost_per_1k_queries": 0.7972574234008789
+  },
+  "minilm": {
+    "model_name": "minilm",
+    "avg_recall_at_5": 0.0,
+    "avg_mrr": 0.0,
+    "avg_query_time_ms": 0.490260124206543,
+    "embedding_dimension": 384,
+    "total_chunks": 97,
+    "individual_results": [
+      {
+        "query_id": "query_0",
+        "retrieved_ids": [
+          "faq_1_structural_0",
+          "faq_4_structural_0",
+          "faq_86_structural_0",
+          "faq_90_structural_0",
+          "faq_43_structural_0"
+        ],
+        "scores": [
+          0.7869851669032166,
+          0.731259225777824,
+          0.7275739442760643,
+          0.7001799721475596,
+          0.6711076991418081
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0005311965942382812
+      },
+      {
+        "query_id": "query_1",
+        "retrieved_ids": [
+          "faq_1_structural_0",
+          "faq_0_structural_0",
+          "faq_5_structural_0",
+          "faq_84_structural_0",
+          "faq_95_structural_0"
+        ],
+        "scores": [
+          0.7408826142399709,
+          0.731259225777824,
+          0.6664993268207194,
+          0.6201198473220715,
+          0.6146550415570838
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0004391670227050781
+      },
+      {
+        "query_id": "query_2",
+        "retrieved_ids": [
+          "faq_12_structural_0",
+          "faq_11_structural_0",
+          "faq_6_structural_0",
+          "faq_7_structural_0",
+          "faq_10_structural_0"
+        ],
+        "scores": [
+          0.7056902849734179,
+          0.6845344899663235,
+          0.585015360805249,
+          0.5576018825289951,
+          0.5194731276635367
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0004398822784423828
+      },
+      {
+        "query_id": "query_3",
+        "retrieved_ids": [
+          "faq_11_structural_0",
+          "faq_8_structural_0",
+          "faq_7_structural_0",
+          "faq_6_structural_0",
+          "faq_9_structural_0"
+        ],
+        "scores": [
+          0.7811044530153636,
+          0.7056902849734179,
+          0.6050496289580551,
+          0.5915006096980411,
+          0.5257578731328655
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0005576610565185547
+      },
+      {
+        "query_id": "query_4",
+        "retrieved_ids": [
+          "faq_17_structural_0",
+          "faq_20_structural_0",
+          "faq_93_structural_0",
+          "faq_87_structural_0",
+          "faq_56_structural_0"
+        ],
+        "scores": [
+          0.7504961278739772,
+          0.5872169817477209,
+          0.4044662928789132,
+          0.3862067968812154,
+          0.33459520098611933
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0004029273986816406
+      },
+      {
+        "query_id": "query_5",
+        "retrieved_ids": [
+          "faq_16_structural_0",
+          "faq_17_structural_0",
+          "faq_6_structural_0",
+          "faq_36_structural_0",
+          "faq_10_structural_0"
+        ],
+        "scores": [
+          0.5872169817477209,
+          0.4985944806535546,
+          0.3869770317956906,
+          0.3406271549147085,
+          0.33463631973659286
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0004239082336425781
+      },
+      {
+        "query_id": "query_6",
+        "retrieved_ids": [
+          "faq_23_structural_0",
+          "faq_2_structural_0",
+          "faq_22_structural_0",
+          "faq_4_structural_0",
+          "faq_3_structural_0"
+        ],
+        "scores": [
+          0.6830519095463518,
+          0.458290032247723,
+          0.44430164104145997,
+          0.4400584190691415,
+          0.3846373424576275
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.00037407875061035156
+      },
+      {
+        "query_id": "query_7",
+        "retrieved_ids": [
+          "faq_30_structural_0",
+          "faq_27_structural_0",
+          "faq_83_structural_0",
+          "faq_29_structural_0",
+          "faq_74_structural_0"
+        ],
+        "scores": [
+          0.5950923410557004,
+          0.5847363862973703,
+          0.5277002964548907,
+          0.485357297097537,
+          0.45345908708644256
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0003800392150878906
+      },
+      {
+        "query_id": "query_8",
+        "retrieved_ids": [
+          "faq_33_structural_0",
+          "faq_31_structural_0",
+          "faq_36_structural_0",
+          "faq_34_structural_0",
+          "faq_73_structural_0"
+        ],
+        "scores": [
+          0.607006625658624,
+          0.5777122098944767,
+          0.5287989604061778,
+          0.5247514005830795,
+          0.4852733462586111
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0006344318389892578
+      },
+      {
+        "query_id": "query_9",
+        "retrieved_ids": [
+          "faq_40_structural_0",
+          "faq_31_structural_0",
+          "faq_37_structural_0",
+          "faq_38_structural_0",
+          "faq_39_structural_0"
+        ],
+        "scores": [
+          0.8493633332985604,
+          0.7409647759449065,
+          0.7161898217095413,
+          0.6669315231867117,
+          0.6563505932978689
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0003986358642578125
+      },
+      {
+        "query_id": "query_10",
+        "retrieved_ids": [
+          "faq_36_structural_0",
+          "faq_37_structural_0",
+          "faq_38_structural_0",
+          "faq_31_structural_0",
+          "faq_39_structural_0"
+        ],
+        "scores": [
+          0.8493633332985604,
+          0.612331834967211,
+          0.5931136741609881,
+          0.5870196382178732,
+          0.5759383509864058
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0004048347473144531
+      },
+      {
+        "query_id": "query_11",
+        "retrieved_ids": [
+          "faq_43_structural_0",
+          "faq_48_structural_0",
+          "faq_51_structural_0",
+          "faq_61_structural_0",
+          "faq_46_structural_0"
+        ],
+        "scores": [
+          0.833748776726391,
+          0.7582860267774778,
+          0.7005672165106408,
+          0.6992650155432579,
+          0.672045490040217
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0005445480346679688
+      },
+      {
+        "query_id": "query_12",
+        "retrieved_ids": [
+          "faq_43_structural_0",
+          "faq_44_structural_0",
+          "faq_46_structural_0",
+          "faq_61_structural_0",
+          "faq_45_structural_0"
+        ],
+        "scores": [
+          0.7736847214174042,
+          0.7582860267774778,
+          0.7401525351663634,
+          0.6610841272364617,
+          0.650656389117672
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0004487037658691406
+      },
+      {
+        "query_id": "query_13",
+        "retrieved_ids": [
+          "faq_53_structural_0",
+          "faq_44_structural_0",
+          "faq_57_structural_0",
+          "faq_54_structural_0",
+          "faq_43_structural_0"
+        ],
+        "scores": [
+          0.7249911391051576,
+          0.611119084311914,
+          0.5284191473180647,
+          0.5105656168078899,
+          0.49508765456440706
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0004229545593261719
+      },
+      {
+        "query_id": "query_14",
+        "retrieved_ids": [
+          "faq_50_structural_0",
+          "faq_44_structural_0",
+          "faq_52_structural_0",
+          "faq_59_structural_0",
+          "faq_71_structural_0"
+        ],
+        "scores": [
+          0.5271726893959815,
+          0.47359489767118956,
+          0.4692856576618204,
+          0.43565104696239815,
+          0.42914697157503146
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0004124641418457031
+      },
+      {
+        "query_id": "query_15",
+        "retrieved_ids": [
+          "faq_58_structural_0",
+          "faq_61_structural_0",
+          "faq_44_structural_0",
+          "faq_57_structural_0",
+          "faq_46_structural_0"
+        ],
+        "scores": [
+          0.4884397246298997,
+          0.4688252763445939,
+          0.41087055812376383,
+          0.387708147514346,
+          0.38189800248428796
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.00037360191345214844
+      },
+      {
+        "query_id": "query_16",
+        "retrieved_ids": [
+          "faq_65_structural_0",
+          "faq_66_structural_0",
+          "faq_68_structural_0",
+          "faq_70_structural_0",
+          "faq_71_structural_0"
+        ],
+        "scores": [
+          0.7826196351841529,
+          0.6868988741360726,
+          0.6392829913100715,
+          0.634592996538356,
+          0.5635106463048918
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0006260871887207031
+      },
+      {
+        "query_id": "query_17",
+        "retrieved_ids": [
+          "faq_66_structural_0",
+          "faq_65_structural_0",
+          "faq_64_structural_0",
+          "faq_70_structural_0",
+          "faq_94_structural_0"
+        ],
+        "scores": [
+          0.6783487575227105,
+          0.6514690719826666,
+          0.6392829913100715,
+          0.6139667471689159,
+          0.5410286017439392
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0004703998565673828
+      },
+      {
+        "query_id": "query_18",
+        "retrieved_ids": [
+          "faq_66_structural_0",
+          "faq_74_structural_0",
+          "faq_68_structural_0",
+          "faq_65_structural_0",
+          "faq_69_structural_0"
+        ],
+        "scores": [
+          0.5157185315135876,
+          0.49583815487460337,
+          0.4876869942657469,
+          0.4692230897712414,
+          0.45768144619168893
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0008344650268554688
+      },
+      {
+        "query_id": "query_19",
+        "retrieved_ids": [
+          "faq_75_structural_0",
+          "faq_90_structural_0",
+          "faq_0_structural_0",
+          "faq_77_structural_0",
+          "faq_1_structural_0"
+        ],
+        "scores": [
+          0.7618751299319508,
+          0.7048995002351536,
+          0.6661678903442394,
+          0.6451264131710897,
+          0.6379162074994439
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0006852149963378906
+      }
+    ],
+    "index_size_mb": 0.14208984375,
+    "cost_per_1k_queries": 0.049026012420654304
+  },
+  "bge-base": {
+    "model_name": "bge-base",
+    "avg_recall_at_5": 0.0,
+    "avg_mrr": 0.0,
+    "avg_query_time_ms": 1.1649131774902344,
+    "embedding_dimension": 768,
+    "total_chunks": 97,
+    "individual_results": [
+      {
+        "query_id": "query_0",
+        "retrieved_ids": [
+          "faq_4_structural_0",
+          "faq_1_structural_0",
+          "faq_84_structural_0",
+          "faq_75_structural_0",
+          "faq_76_structural_0"
+        ],
+        "scores": [
+          0.8687934080334715,
+          0.8493569989396264,
+          0.7956242868235275,
+          0.7954198776378142,
+          0.7844001657742043
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.001009225845336914
+      },
+      {
+        "query_id": "query_1",
+        "retrieved_ids": [
+          "faq_0_structural_0",
+          "faq_1_structural_0",
+          "faq_76_structural_0",
+          "faq_75_structural_0",
+          "faq_84_structural_0"
+        ],
+        "scores": [
+          0.8687934080334715,
+          0.8668943953337215,
+          0.7749069884391361,
+          0.7745267038929333,
+          0.7623538592864259
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0015976428985595703
+      },
+      {
+        "query_id": "query_2",
+        "retrieved_ids": [
+          "faq_11_structural_0",
+          "faq_12_structural_0",
+          "faq_7_structural_0",
+          "faq_6_structural_0",
+          "faq_9_structural_0"
+        ],
+        "scores": [
+          0.8307951555047423,
+          0.8291804192870375,
+          0.7584934875708436,
+          0.724337680860685,
+          0.7119751982293233
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0011606216430664062
+      },
+      {
+        "query_id": "query_3",
+        "retrieved_ids": [
+          "faq_11_structural_0",
+          "faq_8_structural_0",
+          "faq_7_structural_0",
+          "faq_9_structural_0",
+          "faq_6_structural_0"
+        ],
+        "scores": [
+          0.8685424034642787,
+          0.8291804192870375,
+          0.7431497277425894,
+          0.7168915288557419,
+          0.7129015262611265
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0012810230255126953
+      },
+      {
+        "query_id": "query_4",
+        "retrieved_ids": [
+          "faq_17_structural_0",
+          "faq_20_structural_0",
+          "faq_76_structural_0",
+          "faq_8_structural_0",
+          "faq_87_structural_0"
+        ],
+        "scores": [
+          0.8097273981109223,
+          0.730721207404676,
+          0.6484212721781661,
+          0.6455223235790645,
+          0.6250723022879805
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.002086162567138672
+      },
+      {
+        "query_id": "query_5",
+        "retrieved_ids": [
+          "faq_16_structural_0",
+          "faq_6_structural_0",
+          "faq_17_structural_0",
+          "faq_42_structural_0",
+          "faq_56_structural_0"
+        ],
+        "scores": [
+          0.730721207404676,
+          0.6978787594964352,
+          0.687798403691413,
+          0.661429522752043,
+          0.6341602264275279
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0013837814331054688
+      },
+      {
+        "query_id": "query_6",
+        "retrieved_ids": [
+          "faq_23_structural_0",
+          "faq_31_structural_0",
+          "faq_22_structural_0",
+          "faq_2_structural_0",
+          "faq_3_structural_0"
+        ],
+        "scores": [
+          0.8544397499684533,
+          0.6971125848655704,
+          0.684181584991834,
+          0.6783091558002361,
+          0.6738785832938057
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.00098419189453125
+      },
+      {
+        "query_id": "query_7",
+        "retrieved_ids": [
+          "faq_30_structural_0",
+          "faq_27_structural_0",
+          "faq_74_structural_0",
+          "faq_25_structural_0",
+          "faq_26_structural_0"
+        ],
+        "scores": [
+          0.7609662899625592,
+          0.724926301966368,
+          0.6924036484911448,
+          0.6910835295172439,
+          0.6746231113933359
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0005877017974853516
+      },
+      {
+        "query_id": "query_8",
+        "retrieved_ids": [
+          "faq_34_structural_0",
+          "faq_33_structural_0",
+          "faq_36_structural_0",
+          "faq_37_structural_0",
+          "faq_38_structural_0"
+        ],
+        "scores": [
+          0.7491720434479923,
+          0.7297751504199957,
+          0.721867973479992,
+          0.7209261481925828,
+          0.7103830492990175
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0007317066192626953
+      },
+      {
+        "query_id": "query_9",
+        "retrieved_ids": [
+          "faq_40_structural_0",
+          "faq_31_structural_0",
+          "faq_38_structural_0",
+          "faq_37_structural_0",
+          "faq_34_structural_0"
+        ],
+        "scores": [
+          0.8889573374740594,
+          0.8217327712574216,
+          0.8094391756283198,
+          0.8090445724427837,
+          0.798575991758115
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.00054168701171875
+      },
+      {
+        "query_id": "query_10",
+        "retrieved_ids": [
+          "faq_36_structural_0",
+          "faq_38_structural_0",
+          "faq_37_structural_0",
+          "faq_34_structural_0",
+          "faq_31_structural_0"
+        ],
+        "scores": [
+          0.8889573374740594,
+          0.772753856796208,
+          0.7708128674735699,
+          0.7644147613195258,
+          0.728772627830074
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0005843639373779297
+      },
+      {
+        "query_id": "query_11",
+        "retrieved_ids": [
+          "faq_43_structural_0",
+          "faq_51_structural_0",
+          "faq_57_structural_0",
+          "faq_47_structural_0",
+          "faq_48_structural_0"
+        ],
+        "scores": [
+          0.9105681514588073,
+          0.8453371037698824,
+          0.8376270423955321,
+          0.8048732900818175,
+          0.8034055430619405
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0004718303680419922
+      },
+      {
+        "query_id": "query_12",
+        "retrieved_ids": [
+          "faq_47_structural_0",
+          "faq_44_structural_0",
+          "faq_46_structural_0",
+          "faq_43_structural_0",
+          "faq_62_structural_0"
+        ],
+        "scores": [
+          0.8155966060789708,
+          0.8034055430619405,
+          0.7978154891950138,
+          0.7962623947934183,
+          0.7697797254669099
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0005204677581787109
+      },
+      {
+        "query_id": "query_13",
+        "retrieved_ids": [
+          "faq_53_structural_0",
+          "faq_44_structural_0",
+          "faq_57_structural_0",
+          "faq_54_structural_0",
+          "faq_56_structural_0"
+        ],
+        "scores": [
+          0.8520461362703255,
+          0.7823632745089446,
+          0.7683389483204597,
+          0.757953649413774,
+          0.7245614987101343
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0006973743438720703
+      },
+      {
+        "query_id": "query_14",
+        "retrieved_ids": [
+          "faq_52_structural_0",
+          "faq_50_structural_0",
+          "faq_53_structural_0",
+          "faq_59_structural_0",
+          "faq_46_structural_0"
+        ],
+        "scores": [
+          0.7245614987101343,
+          0.7239238496738873,
+          0.7072353186175804,
+          0.6890323830376606,
+          0.6856305083260681
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0005867481231689453
+      },
+      {
+        "query_id": "query_15",
+        "retrieved_ids": [
+          "faq_58_structural_0",
+          "faq_44_structural_0",
+          "faq_61_structural_0",
+          "faq_52_structural_0",
+          "faq_49_structural_0"
+        ],
+        "scores": [
+          0.7321034240460504,
+          0.7066205753778392,
+          0.6996972527361907,
+          0.694173967786724,
+          0.6900759286572138
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0007956027984619141
+      },
+      {
+        "query_id": "query_16",
+        "retrieved_ids": [
+          "faq_65_structural_0",
+          "faq_66_structural_0",
+          "faq_68_structural_0",
+          "faq_70_structural_0",
+          "faq_31_structural_0"
+        ],
+        "scores": [
+          0.8100607786691112,
+          0.8079684268092737,
+          0.7735833220067592,
+          0.7449959335801644,
+          0.7404179203776755
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0008740425109863281
+      },
+      {
+        "query_id": "query_17",
+        "retrieved_ids": [
+          "faq_70_structural_0",
+          "faq_66_structural_0",
+          "faq_64_structural_0",
+          "faq_71_structural_0",
+          "faq_65_structural_0"
+        ],
+        "scores": [
+          0.780265414522707,
+          0.7774315618602864,
+          0.7735833220067592,
+          0.7421276013468318,
+          0.7411264612534709
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0018298625946044922
+      },
+      {
+        "query_id": "query_18",
+        "retrieved_ids": [
+          "faq_66_structural_0",
+          "faq_68_structural_0",
+          "faq_74_structural_0",
+          "faq_70_structural_0",
+          "faq_65_structural_0"
+        ],
+        "scores": [
+          0.7242575890769842,
+          0.6911032233089672,
+          0.6705364772317333,
+          0.6521266592018422,
+          0.6338712574312348
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.0012238025665283203
+      },
+      {
+        "query_id": "query_19",
+        "retrieved_ids": [
+          "faq_75_structural_0",
+          "faq_0_structural_0",
+          "faq_1_structural_0",
+          "faq_4_structural_0",
+          "faq_90_structural_0"
+        ],
+        "scores": [
+          0.8437532382814206,
+          0.7844001657742043,
+          0.775550899768878,
+          0.7749069884391361,
+          0.7554539008154824
+        ],
+        "recall_at_5": 0.0,
+        "reciprocal_rank": 0,
+        "query_time": 0.004350423812866211
+      }
+    ],
+    "index_size_mb": 0.2841796875,
+    "cost_per_1k_queries": 0.46596527099609375
+  }
+}

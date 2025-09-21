@@ -1,0 +1,34 @@
+{
+  "embedding_summary": {
+    "created_at": "20250921_193059",
+    "models_processed": 3,
+    "successful_models": 3,
+    "failed_models": 0,
+    "results": {
+      "minilm": {
+        "output_path": "/home/vikas/Desktop/LLM_Assignment_02/JioPay-Rag-System/Dataset/Embeded data/structural_embeddings_minilm_20250921_192635.json",
+        "embedding_shape": [
+          97,
+          384
+        ],
+        "model_full_name": "sentence-transformers/all-MiniLM-L6-v2"
+      },
+      "e5-base": {
+        "output_path": "/home/vikas/Desktop/LLM_Assignment_02/JioPay-Rag-System/Dataset/Embeded data/structural_embeddings_e5-base_20250921_192929.json",
+        "embedding_shape": [
+          97,
+          768
+        ],
+        "model_full_name": "intfloat/e5-base-v2"
+      },
+      "bge-base": {
+        "output_path": "/home/vikas/Desktop/LLM_Assignment_02/JioPay-Rag-System/Dataset/Embeded data/structural_embeddings_bge-base_20250921_193059.json",
+        "embedding_shape": [
+          97,
+          768
+        ],
+        "model_full_name": "BAAI/bge-base-en-v1.5"
+      }
+    }
+  }
+}
