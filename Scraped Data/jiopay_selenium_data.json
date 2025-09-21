@@ -1,0 +1,414 @@
+{
+  "site_info": {
+    "base_url": "https://jiopay.com",
+    "business_url": "https://jiopay.com/business",
+    "scrape_timestamp": "2025-09-21T16:00:24.437532",
+    "total_pages_scraped": 3,
+    "total_clicks_performed": 26,
+    "completion_timestamp": "2025-09-21T16:30:23.979630"
+  },
+  "pages": [
+    {
+      "url": "https://jiopay.com/business",
+      "title": "JioPay - Business",
+      "timestamp": "2025-09-21T16:00:34.710928",
+      "meta_description": "JioPay",
+      "navigation_links": [],
+      "all_links": [],
+      "about_us": {},
+      "faqs": [],
+      "business_info": {
+        "business_0": {
+          "heading": "Business Information",
+          "content": "JioPay Business App Simple, instant UPI payments from your customers Offline Payments Auto Reconciliation & Settlement 1 QR Transaction Summary Know More"
+        },
+        "business_1": {
+          "heading": "Business Information",
+          "content": "We are obsessed with technology and use it extensively to solve the payments needs of your business"
+        },
+        "corporate_2": {
+          "heading": "Corporate Information",
+          "content": "Corporate Address : 2 nd Floor B Wing, Building 25, Dhirubhai Ambani Knowledge City,\nKopar Khairane, Navi Mumbai –400 710, India"
+        },
+        "solution_3": {
+          "heading": "Solution Information",
+          "content": "Jio Payment Solutions Limited (formerly known as Reliance Payment Solutions Limited)"
+        },
+        "solution_4": {
+          "heading": "Solution Information",
+          "content": "Jio Payment Solutions Limited (formerly known as Reliance Payment Solutions Limited)"
+        },
+        "service_5": {
+          "heading": "Service Information",
+          "content": "A platform that enables payment acceptance for recharges and bill payments of service providers"
+        },
+        "feature_6": {
+          "heading": "Feature Information",
+          "content": "  Versatile Multiple feature launches, optimizations and improvements through the year to ensure you are always ahead of the curve"
+        },
+        "product_7": {
+          "heading": "Product Information",
+          "content": "Our platform with its suite of fully integrated products enables you to accept payments seamlessly from your users, be it on websites or in-store."
+        }
+      },
+      "content_sections": [],
+      "forms": [],
+      "modals": [],
+      "full_text": "JioPay - Business You need to enable JavaScript to run this app. JioPay Business Products Partner Program Contact Us About Us  Digital payment acceptance made easy, by JioPay. JioPay is the Safest, Smartest and Quickest way to accept payments from your customers. Explore Products  2 Million+ API requests per day  100K+ Merchants trust us  300 Million+ Transactions processed  100+ Payment methods supported Our Products Our platform with its suite of fully integrated products enables you to accept payments seamlessly from your users, be it on websites or in-store. PAYMENT GATEWAY  POINT OF SALE  UPI HUB  BILLER CENTER  BUSINESS APP Payment Gateway Collect payments online on your own custom website or through tailored links and pages Safe and secure transactions Popular payment modes Optimized for web and mobile Increase conversion Know More Point Of Sale A smart terminal to accept in-store payments from multiple payment modes including Cards and UPI Accept payments Generate UPI QRs Design campaigns Critical insights Know More UPI Hub A comprehensive platform that lets you collect payments using the versatile UPI as a payment method Accept payments Generate UPI QRs 1 QR Payment links Know More Biller Center A platform that enables payment acceptance for recharges and bill payments of service providers Collect payments Easy Operations Superior Reach Send payment links Know More JioPay Business App Simple, instant UPI payments from your customers Offline Payments Auto Reconciliation & Settlement 1 QR Transaction Summary Know More Why JioPay? We are obsessed with technology and use it extensively to solve the payments needs of your business   Versatile Multiple feature launches, optimizations and improvements through the year to ensure you are always ahead of the curve   Comprehensive Reduce your operational expenses using our fully managed platform that is designed for Security, Reliability and Scale Compliant JioPay meets the highest standards to meet compliance needs and reassure your decision to choose us   Robust Our integration with multiple institutions ensures the best fail-safe to deliver superior success rates and uptime JioPay Business Jio Payment Solutions Limited (formerly known as Reliance Payment Solutions Limited) Registered Address : 1 st Floor, Building 4na, Maker Maxity,\nBandra Kurla Complex Road, Bandra (East),\nMumbai, Maharashtra, India, 400051 Corporate Address : 2 nd Floor B Wing, Building 25, Dhirubhai Ambani Knowledge City,\nKopar Khairane, Navi Mumbai –400 710, India General About Us Help Center Investor Relations Complaint Resolution JioPay Business Partner Program Products JioPay for Business Payment Gateway Point of Sale UPI Hub Biller Centre JioPay Business App Legal Privacy Policy Terms & Conditions Grievance Redressal Policy Merchant Onboarding & KYC-AML Policy BillPay Terms & Conditions"
+    },
+    {
+      "url": "https://jiopay.com",
+      "title": "JioPay - Business",
+      "timestamp": "2025-09-21T16:03:11.135543",
+      "meta_description": "JioPay",
+      "navigation_links": [],
+      "all_links": [],
+      "about_us": {},
+      "faqs": [],
+      "business_info": {
+        "business_0": {
+          "heading": "Business Information",
+          "content": "JioPay Business App Simple, instant UPI payments from your customers Offline Payments Auto Reconciliation & Settlement 1 QR Transaction Summary Know More"
+        },
+        "business_1": {
+          "heading": "Business Information",
+          "content": "We are obsessed with technology and use it extensively to solve the payments needs of your business"
+        },
+        "corporate_2": {
+          "heading": "Corporate Information",
+          "content": "Corporate Address : 2 nd Floor B Wing, Building 25, Dhirubhai Ambani Knowledge City,\nKopar Khairane, Navi Mumbai –400 710, India"
+        },
+        "solution_3": {
+          "heading": "Solution Information",
+          "content": "Jio Payment Solutions Limited (formerly known as Reliance Payment Solutions Limited)"
+        },
+        "solution_4": {
+          "heading": "Solution Information",
+          "content": "Jio Payment Solutions Limited (formerly known as Reliance Payment Solutions Limited)"
+        },
+        "service_5": {
+          "heading": "Service Information",
+          "content": "A platform that enables payment acceptance for recharges and bill payments of service providers"
+        },
+        "feature_6": {
+          "heading": "Feature Information",
+          "content": "  Versatile Multiple feature launches, optimizations and improvements through the year to ensure you are always ahead of the curve"
+        },
+        "product_7": {
+          "heading": "Product Information",
+          "content": "Our platform with its suite of fully integrated products enables you to accept payments seamlessly from your users, be it on websites or in-store."
+        }
+      },
+      "content_sections": [],
+      "forms": [],
+      "modals": [],
+      "full_text": "JioPay - Business You need to enable JavaScript to run this app. JioPay Business Products Partner Program Contact Us About Us  Digital payment acceptance made easy, by JioPay. JioPay is the Safest, Smartest and Quickest way to accept payments from your customers. Explore Products  2 Million+ API requests per day  100K+ Merchants trust us  300 Million+ Transactions processed  100+ Payment methods supported Our Products Our platform with its suite of fully integrated products enables you to accept payments seamlessly from your users, be it on websites or in-store. PAYMENT GATEWAY  POINT OF SALE  UPI HUB  BILLER CENTER  BUSINESS APP Payment Gateway Collect payments online on your own custom website or through tailored links and pages Safe and secure transactions Popular payment modes Optimized for web and mobile Increase conversion Know More Point Of Sale A smart terminal to accept in-store payments from multiple payment modes including Cards and UPI Accept payments Generate UPI QRs Design campaigns Critical insights Know More UPI Hub A comprehensive platform that lets you collect payments using the versatile UPI as a payment method Accept payments Generate UPI QRs 1 QR Payment links Know More Biller Center A platform that enables payment acceptance for recharges and bill payments of service providers Collect payments Easy Operations Superior Reach Send payment links Know More JioPay Business App Simple, instant UPI payments from your customers Offline Payments Auto Reconciliation & Settlement 1 QR Transaction Summary Know More Why JioPay? We are obsessed with technology and use it extensively to solve the payments needs of your business   Versatile Multiple feature launches, optimizations and improvements through the year to ensure you are always ahead of the curve   Comprehensive Reduce your operational expenses using our fully managed platform that is designed for Security, Reliability and Scale Compliant JioPay meets the highest standards to meet compliance needs and reassure your decision to choose us   Robust Our integration with multiple institutions ensures the best fail-safe to deliver superior success rates and uptime JioPay Business Jio Payment Solutions Limited (formerly known as Reliance Payment Solutions Limited) Registered Address : 1 st Floor, Building 4na, Maker Maxity,\nBandra Kurla Complex Road, Bandra (East),\nMumbai, Maharashtra, India, 400051 Corporate Address : 2 nd Floor B Wing, Building 25, Dhirubhai Ambani Knowledge City,\nKopar Khairane, Navi Mumbai –400 710, India General About Us Help Center Investor Relations Complaint Resolution JioPay Business Partner Program Products JioPay for Business Payment Gateway Point of Sale UPI Hub Biller Centre JioPay Business App Legal Privacy Policy Terms & Conditions Grievance Redressal Policy Merchant Onboarding & KYC-AML Policy BillPay Terms & Conditions"
+    },
+    {
+      "url": "https://jiopay.com/business/help-center",
+      "title": "JioPay Business App",
+      "timestamp": "2025-09-21T16:05:47.478413",
+      "meta_description": "JioPay",
+      "navigation_links": [],
+      "all_links": [],
+      "about_us": {},
+      "faqs": [],
+      "business_info": {
+        "business_0": {
+          "heading": "Business Information",
+          "content": "JioPay Business App Simple, instant UPI payments from your customers Offline Payments Auto Reconciliation & Settlement 1 QR Transaction Summary Know More"
+        },
+        "business_1": {
+          "heading": "Business Information",
+          "content": "We are obsessed with technology and use it extensively to solve the payments needs of your business"
+        },
+        "business_2": {
+          "heading": "Business Information",
+          "content": "How can I generate reports on JioPay business Dashboard? "
+        },
+        "business_3": {
+          "heading": "Business Information",
+          "content": "Why should you consider becoming a part of the JioPay Business Partner program? "
+        },
+        "business_4": {
+          "heading": "Business Information",
+          "content": "What is the potential earning structure within the JioPay Business Partner Program? "
+        },
+        "business_5": {
+          "heading": "Business Information",
+          "content": "Can a business that's already registered with JioPay Business also sign up as a partner? "
+        },
+        "corporate_6": {
+          "heading": "Corporate Information",
+          "content": "Corporate Address : 2 nd Floor B Wing, Building 25, Dhirubhai Ambani Knowledge City,\nKopar Khairane, Navi Mumbai –400 710, India"
+        },
+        "corporate_7": {
+          "heading": "Corporate Information",
+          "content": "Corporate Address : 2 nd Floor B Wing, Building 25, Dhirubhai Ambani Knowledge City,\nKopar Khairane, Navi Mumbai –400 710, India"
+        },
+        "merchant_8": {
+          "heading": "Merchant Information",
+          "content": "Email us for any query at merchant.support@jiopay.in"
+        },
+        "merchant_9": {
+          "heading": "Merchant Information",
+          "content": "How long would it require to become P2M merchant after upgradation request? "
+        },
+        "merchant_10": {
+          "heading": "Merchant Information",
+          "content": "What if a P2PM Merchant merchants breaches ₹ 1,00,000/- monthly limit? "
+        },
+        "solution_11": {
+          "heading": "Solution Information",
+          "content": "Jio Payment Solutions Limited (formerly known as Reliance Payment Solutions Limited)"
+        },
+        "solution_12": {
+          "heading": "Solution Information",
+          "content": "Jio Payment Solutions Limited (formerly known as Reliance Payment Solutions Limited)"
+        },
+        "solution_13": {
+          "heading": "Solution Information",
+          "content": "Jio Payment Solutions Limited (formerly known as Reliance Payment Solutions Limited)"
+        },
+        "solution_14": {
+          "heading": "Solution Information",
+          "content": "Jio Payment Solutions Limited (formerly known as Reliance Payment Solutions Limited)"
+        },
+        "service_15": {
+          "heading": "Service Information",
+          "content": "A platform that enables payment acceptance for recharges and bill payments of service providers"
+        },
+        "feature_16": {
+          "heading": "Feature Information",
+          "content": "  Versatile Multiple feature launches, optimizations and improvements through the year to ensure you are always ahead of the curve"
+        },
+        "product_17": {
+          "heading": "Product Information",
+          "content": "Our platform with its suite of fully integrated products enables you to accept payments seamlessly from your users, be it on websites or in-store."
+        }
+      },
+      "content_sections": [],
+      "forms": [],
+      "modals": [],
+      "full_text": "JioPay Business App You need to enable JavaScript to run this app. JioPay Business Products Partner Program Contact Us About Us  Digital payment acceptance made easy, by JioPay. JioPay is the Safest, Smartest and Quickest way to accept payments from your customers. Explore Products  2 Million+ API requests per day  100K+ Merchants trust us  300 Million+ Transactions processed  100+ Payment methods supported Our Products Our platform with its suite of fully integrated products enables you to accept payments seamlessly from your users, be it on websites or in-store. PAYMENT GATEWAY  POINT OF SALE  UPI HUB  BILLER CENTER  BUSINESS APP Payment Gateway Collect payments online on your own custom website or through tailored links and pages Safe and secure transactions Popular payment modes Optimized for web and mobile Increase conversion Know More Point Of Sale A smart terminal to accept in-store payments from multiple payment modes including Cards and UPI Accept payments Generate UPI QRs Design campaigns Critical insights Know More UPI Hub A comprehensive platform that lets you collect payments using the versatile UPI as a payment method Accept payments Generate UPI QRs 1 QR Payment links Know More Biller Center A platform that enables payment acceptance for recharges and bill payments of service providers Collect payments Easy Operations Superior Reach Send payment links Know More JioPay Business App Simple, instant UPI payments from your customers Offline Payments Auto Reconciliation & Settlement 1 QR Transaction Summary Know More Why JioPay? We are obsessed with technology and use it extensively to solve the payments needs of your business   Versatile Multiple feature launches, optimizations and improvements through the year to ensure you are always ahead of the curve   Comprehensive Reduce your operational expenses using our fully managed platform that is designed for Security, Reliability and Scale Compliant JioPay meets the highest standards to meet compliance needs and reassure your decision to choose us   Robust Our integration with multiple institutions ensures the best fail-safe to deliver superior success rates and uptime JioPay Business Jio Payment Solutions Limited (formerly known as Reliance Payment Solutions Limited) Registered Address : 1 st Floor, Building 4na, Maker Maxity,\nBandra Kurla Complex Road, Bandra (East),\nMumbai, Maharashtra, India, 400051 Corporate Address : 2 nd Floor B Wing, Building 25, Dhirubhai Ambani Knowledge City,\nKopar Khairane, Navi Mumbai –400 710, India General About Us Help Center Investor Relations Complaint Resolution JioPay Business Partner Program Products JioPay for Business Payment Gateway Point of Sale UPI Hub Biller Centre JioPay Business App Legal Privacy Policy Terms & Conditions Grievance Redressal Policy Merchant Onboarding & KYC-AML Policy BillPay Terms & Conditions JioPay Business Products Partner Program Contact Us About Us  Help Centre Email us for any query at merchant.support@jiopay.in Frequently Asked Questions JioPay Business App JioPay Business Dashboard Collect link User Management Repeat Campaign Settlement Refunds Notifications Voicebox DQR Partner program P2PM / Low KYC merchants What is JioPay Business?  What is the purpose of the JioPay Business App?  How can I download the JioPay Business App?  I have forgotten my account password. How can I reset it?  I am unable to login to the App/Dashboard. What can I do?  Why My App is crashing on my Phone?  Where can I see transaction details in the App/Portal?  What is JioPay Business Dashboard?  How can I generate reports on JioPay business Dashboard?  How can I create Collect link?  What are the payment modes available via Collect link?  Can I use Single Collect link to accept payments from multiple customers?  What is the validity of the Collect link?  Can I create Bulk Collect links?  Is partial payment allowed?  Can customer enter the amount?  Can I add sub user to JioPay Business?  How can a new sub access merchant Dashboard?  Can I block sub user?  What is Repeat?  What are the payment methods supported for Repeat?  What is the maximum amount for debit without 2FA in subsequent payment?  I want to give my customer a free trial, would that be possible?  Can I create Repeat via dashboard?  Will you be able to manage my subscriptions?  How can I create campaign?  How can I edit campaign?  How can I pause/stop campaign?  What are settlements?  How to check settlements in my bank account?  What should I do if I'm not receiving my settlements?  I believe that I have received partial or incorrect settlement in my account?  How do I Update settlement bank account number?  Do I have to do manual settlement for my account every day to get the funds for payments collected by me?  Why is my settlement on hold for some transactions?  How can I issue refunds to my customers for any payments made by them?  How to check the status of refund?  How to check ARN for refund?  What should I do if refund is not credited in my customer’s account?  Can I cancel a refund?  Do you charge for refund?  Can we do bulk refund?  What are the steps for Bulk refund?  Do we have a format for bulk refund report?  Is partial refund allowed in bulk refund?  Can we reprocess failed record in bulk refund?  How can I disable SMS notification from dashboard?  How can I add new number for SMS from dashboard?  What is the JioPay VoiceBox?  How does the VoiceBox work?  How does JioPay VoiceBox compare with other devices?  How do I get a new VoiceBox?  Is doorstep installation included with the JioPay VoiceBox?  How can I set up the JioPay VoiceBox?  Can I use any SIM in the VoiceBox?  What if I would like to return /replace the VoiceBox?  Can the JioPay VoiceBox be used in noisy environments?  What are some measures to take to keep the voice box in good working condition ?  What type of transactions will VoiceBox announce?  What type of transactions can be supported/voiced out?  What type of languages are supported for announcements?  How can I change the language of announcements?  How do I replay the last transaction on the VoiceBox?  My VoiceBox is not working, what should I do?  What if my VoiceBox is not charging?  How do I power on my VoiceBox and verify it is operational?  What if the device is not turning on ?  What if device is not getting connected to network ?  What are the charges for the VoiceBox?  How can I get an invoice for the payment made?  How do I control the volume of the JioPay VoiceBox?  How do I check the battery level of the JioPay VoiceBox?  Below power LED indications can help you regarding the battery status of the device:  What should a store manager do on receipt of JioPay DQR standee?  Who will send the store manager the JioPay DQR?  What if the neighborhood smart point have it and a particular store manager doesn’t have it.  What if the DQR device is defective?  What if the store manager has received excess or lesser number of devices?  How do I start using the DQR device for transactions?  What all UPI payment applications/options would JioPay DQR support?  Internet connectivity issue or network issues because of which UPI is not working  What if the DQR is not working after connecting to RPoS Billing System?  How to initiate refund in normal DQR transactions  Will there be any training provided on the usage of DQR?  In case of transaction timeout how to check if money is credited or not?  How will the settlement happen in case of payment made by customer via DQR?  When to use “Cancel” option in check status?  When not to use “Cancel” option? Scenarios where cancel option should not be used  Why should you consider becoming a part of the JioPay Business Partner program?  What is the potential earning structure within the JioPay Business Partner Program?  Can a business that's already registered with JioPay Business also sign up as a partner?  Who are P2PM Merchants?  What are Limitations of being a P2PM Merchant?  What are benefits of becoming a P2M merchant?  How long would it require to become P2M merchant after upgradation request?  What if a P2PM Merchant merchants breaches ₹ 1,00,000/- monthly limit?  How to change the settlement account?  JioPay Business Jio Payment Solutions Limited (formerly known as Reliance Payment Solutions Limited) Registered Address : 1 st Floor, Building 4na, Maker Maxity,\nBandra Kurla Complex Road, Bandra (East),\nMumbai, Maharashtra, India, 400051 Corporate Address : 2 nd Floor B Wing, Building 25, Dhirubhai Ambani Knowledge City,\nKopar Khairane, Navi Mumbai –400 710, India General About Us Help Center Investor Relations Complaint Resolution JioPay Business Partner Program Products JioPay for Business Payment Gateway Point of Sale UPI Hub Biller Centre JioPay Business App Legal Privacy Policy Terms & Conditions Grievance Redressal Policy Merchant Onboarding & KYC-AML Policy BillPay Terms & Conditions"
+    }
+  ],
+  "navigation": [],
+  "about_us": {},
+  "faqs": [],
+  "business_info": {},
+  "all_links": [],
+  "content_sections": [],
+  "clicked_elements": [
+    {
+      "element_type": "button",
+      "text": "JioPay Business App",
+      "selector": "button",
+      "timestamp": "2025-09-21T16:08:00.012069",
+      "url_before_click": "https://jiopay.com/business/help-center",
+      "url_after_click": "https://jiopay.com/business/help-center"
+    },
+    {
+      "element_type": "button",
+      "text": "JioPay Business Dashboard",
+      "selector": "button",
+      "timestamp": "2025-09-21T16:08:51.768413",
+      "url_before_click": "https://jiopay.com/business/help-center",
+      "url_after_click": "https://jiopay.com/business/help-center"
+    },
+    {
+      "element_type": "button",
+      "text": "Collect link",
+      "selector": "button",
+      "timestamp": "2025-09-21T16:09:43.551676",
+      "url_before_click": "https://jiopay.com/business/help-center",
+      "url_after_click": "https://jiopay.com/business/help-center"
+    },
+    {
+      "element_type": "button",
+      "text": "User Management",
+      "selector": "button",
+      "timestamp": "2025-09-21T16:10:35.357124",
+      "url_before_click": "https://jiopay.com/business/help-center",
+      "url_after_click": "https://jiopay.com/business/help-center"
+    },
+    {
+      "element_type": "button",
+      "text": "Repeat",
+      "selector": "button",
+      "timestamp": "2025-09-21T16:11:27.101476",
+      "url_before_click": "https://jiopay.com/business/help-center",
+      "url_after_click": "https://jiopay.com/business/help-center"
+    },
+    {
+      "element_type": "button",
+      "text": "Campaign",
+      "selector": "button",
+      "timestamp": "2025-09-21T16:12:18.811035",
+      "url_before_click": "https://jiopay.com/business/help-center",
+      "url_after_click": "https://jiopay.com/business/help-center"
+    },
+    {
+      "element_type": "button",
+      "text": "Settlement",
+      "selector": "button",
+      "timestamp": "2025-09-21T16:13:10.582409",
+      "url_before_click": "https://jiopay.com/business/help-center",
+      "url_after_click": "https://jiopay.com/business/help-center"
+    },
+    {
+      "element_type": "button",
+      "text": "Refunds",
+      "selector": "button",
+      "timestamp": "2025-09-21T16:14:02.328995",
+      "url_before_click": "https://jiopay.com/business/help-center",
+      "url_after_click": "https://jiopay.com/business/help-center"
+    },
+    {
+      "element_type": "button",
+      "text": "Notifications",
+      "selector": "button",
+      "timestamp": "2025-09-21T16:14:54.080764",
+      "url_before_click": "https://jiopay.com/business/help-center",
+      "url_after_click": "https://jiopay.com/business/help-center"
+    },
+    {
+      "element_type": "button",
+      "text": "Voicebox",
+      "selector": "button",
+      "timestamp": "2025-09-21T16:15:45.815550",
+      "url_before_click": "https://jiopay.com/business/help-center",
+      "url_after_click": "https://jiopay.com/business/help-center"
+    },
+    {
+      "element_type": "button",
+      "text": "DQR",
+      "selector": "button",
+      "timestamp": "2025-09-21T16:16:37.535982",
+      "url_before_click": "https://jiopay.com/business/help-center",
+      "url_after_click": "https://jiopay.com/business/help-center"
+    },
+    {
+      "element_type": "button",
+      "text": "Partner program",
+      "selector": "button",
+      "timestamp": "2025-09-21T16:17:29.228445",
+      "url_before_click": "https://jiopay.com/business/help-center",
+      "url_after_click": "https://jiopay.com/business/help-center"
+    },
+    {
+      "element_type": "button",
+      "text": "P2PM / Low KYC merchants",
+      "selector": "button",
+      "timestamp": "2025-09-21T16:18:20.934550",
+      "url_before_click": "https://jiopay.com/business/help-center",
+      "url_after_click": "https://jiopay.com/business/help-center"
+    },
+    {
+      "element_type": "button",
+      "text": "JioPay Business App",
+      "selector": "[role=\"button\"]",
+      "timestamp": "2025-09-21T16:19:12.666525",
+      "url_before_click": "https://jiopay.com/business/help-center",
+      "url_after_click": "https://jiopay.com/business/help-center"
+    },
+    {
+      "element_type": "button",
+      "text": "JioPay Business Dashboard",
+      "selector": "[role=\"button\"]",
+      "timestamp": "2025-09-21T16:20:04.443430",
+      "url_before_click": "https://jiopay.com/business/help-center",
+      "url_after_click": "https://jiopay.com/business/help-center"
+    },
+    {
+      "element_type": "button",
+      "text": "Collect link",
+      "selector": "[role=\"button\"]",
+      "timestamp": "2025-09-21T16:20:56.161151",
+      "url_before_click": "https://jiopay.com/business/help-center",
+      "url_after_click": "https://jiopay.com/business/help-center"
+    },
+    {
+      "element_type": "button",
+      "text": "User Management",
+      "selector": "[role=\"button\"]",
+      "timestamp": "2025-09-21T16:21:47.924526",
+      "url_before_click": "https://jiopay.com/business/help-center",
+      "url_after_click": "https://jiopay.com/business/help-center"
+    },
+    {
+      "element_type": "button",
+      "text": "Repeat",
+      "selector": "[role=\"button\"]",
+      "timestamp": "2025-09-21T16:22:39.699687",
+      "url_before_click": "https://jiopay.com/business/help-center",
+      "url_after_click": "https://jiopay.com/business/help-center"
+    },
+    {
+      "element_type": "button",
+      "text": "Campaign",
+      "selector": "[role=\"button\"]",
+      "timestamp": "2025-09-21T16:23:31.431804",
+      "url_before_click": "https://jiopay.com/business/help-center",
+      "url_after_click": "https://jiopay.com/business/help-center"
+    },
+    {
+      "element_type": "button",
+      "text": "Settlement",
+      "selector": "[role=\"button\"]",
+      "timestamp": "2025-09-21T16:24:23.187352",
+      "url_before_click": "https://jiopay.com/business/help-center",
+      "url_after_click": "https://jiopay.com/business/help-center"
+    },
+    {
+      "element_type": "button",
+      "text": "Refunds",
+      "selector": "[role=\"button\"]",
+      "timestamp": "2025-09-21T16:25:14.937279",
+      "url_before_click": "https://jiopay.com/business/help-center",
+      "url_after_click": "https://jiopay.com/business/help-center"
+    },
+    {
+      "element_type": "button",
+      "text": "Notifications",
+      "selector": "[role=\"button\"]",
+      "timestamp": "2025-09-21T16:26:06.687997",
+      "url_before_click": "https://jiopay.com/business/help-center",
+      "url_after_click": "https://jiopay.com/business/help-center"
+    },
+    {
+      "element_type": "button",
+      "text": "Voicebox",
+      "selector": "[role=\"button\"]",
+      "timestamp": "2025-09-21T16:26:58.478112",
+      "url_before_click": "https://jiopay.com/business/help-center",
+      "url_after_click": "https://jiopay.com/business/help-center"
+    },
+    {
+      "element_type": "button",
+      "text": "DQR",
+      "selector": "[role=\"button\"]",
+      "timestamp": "2025-09-21T16:27:50.262292",
+      "url_before_click": "https://jiopay.com/business/help-center",
+      "url_after_click": "https://jiopay.com/business/help-center"
+    },
+    {
+      "element_type": "button",
+      "text": "Partner program",
+      "selector": "[role=\"button\"]",
+      "timestamp": "2025-09-21T16:28:42.035596",
+      "url_before_click": "https://jiopay.com/business/help-center",
+      "url_after_click": "https://jiopay.com/business/help-center"
+    },
+    {
+      "element_type": "button",
+      "text": "P2PM / Low KYC merchants",
+      "selector": "[role=\"button\"]",
+      "timestamp": "2025-09-21T16:29:33.810275",
+      "url_before_click": "https://jiopay.com/business/help-center",
+      "url_after_click": "https://jiopay.com/business/help-center"
+    }
+  ],
+  "modal_content": [],
+  "form_data": []
+}

@@ -1,0 +1,13 @@
+{
+  "fastest_strategy": "Fixed",
+  "most_chunks_strategy": "Semantic",
+  "largest_avg_chunk_strategy": "LLM-based",
+  "latency_range": {
+    "min": 19.4,
+    "max": 2856.3
+  },
+  "chunk_count_range": {
+    "min": 97,
+    "max": 241
+  }
+}

@@ -1,0 +1,123 @@
+============================================================
+CHUNKING ABLATION STUDY REPORT
+============================================================
+Dataset: ../Dataset/Normalized_data.json
+Total FAQs: 97
+Evaluation Date: 2025-09-21 17:51:30
+
+STRATEGY COMPARISON
+------------------------------------------------------------
+Strategy        Size   Overlap Chunks   Avg Size   Time(ms)  
+------------------------------------------------------------
+fixed           256    N/A     97       44.2       48.4      
+fixed           256    64      97       44.2       23.4      
+fixed           256    128     97       44.2       19.4      
+fixed           512    N/A     97       44.2       20.9      
+fixed           512    64      97       44.2       22.5      
+fixed           512    128     97       44.2       19.8      
+fixed           1024   N/A     97       44.2       22.7      
+fixed           1024   64      97       44.2       25.4      
+fixed           1024   128     97       44.2       20.5      
+semantic        N/A    N/A     179      23.9       2700.1    
+semantic        N/A    N/A     213      20.1       2673.4    
+semantic        N/A    N/A     241      17.8       2856.3    
+structural      N/A    N/A     97       44.2       27.2      
+recursive       N/A    N/A     97       44.2       24.8      
+
+DETAILED ANALYSIS
+========================================
+
+FIXED CHUNKING:
+------------------------------
+  Config: Size: 256, Overlap: 0
+  Total chunks: 97
+  Avg chunk size: 44.2 tokens
+  Size range: 17 - 123 tokens
+  Processing time: 48.4 ms
+
+  Config: Size: 256, Overlap: 64
+  Total chunks: 97
+  Avg chunk size: 44.2 tokens
+  Size range: 17 - 123 tokens
+  Processing time: 23.4 ms
+
+  Config: Size: 256, Overlap: 128
+  Total chunks: 97
+  Avg chunk size: 44.2 tokens
+  Size range: 17 - 123 tokens
+  Processing time: 19.4 ms
+
+  Config: Size: 512, Overlap: 0
+  Total chunks: 97
+  Avg chunk size: 44.2 tokens
+  Size range: 17 - 123 tokens
+  Processing time: 20.9 ms
+
+  Config: Size: 512, Overlap: 64
+  Total chunks: 97
+  Avg chunk size: 44.2 tokens
+  Size range: 17 - 123 tokens
+  Processing time: 22.5 ms
+
+  Config: Size: 512, Overlap: 128
+  Total chunks: 97
+  Avg chunk size: 44.2 tokens
+  Size range: 17 - 123 tokens
+  Processing time: 19.8 ms
+
+  Config: Size: 1024, Overlap: 0
+  Total chunks: 97
+  Avg chunk size: 44.2 tokens
+  Size range: 17 - 123 tokens
+  Processing time: 22.7 ms
+
+  Config: Size: 1024, Overlap: 64
+  Total chunks: 97
+  Avg chunk size: 44.2 tokens
+  Size range: 17 - 123 tokens
+  Processing time: 25.4 ms
+
+  Config: Size: 1024, Overlap: 128
+  Total chunks: 97
+  Avg chunk size: 44.2 tokens
+  Size range: 17 - 123 tokens
+  Processing time: 20.5 ms
+
+
+SEMANTIC CHUNKING:
+------------------------------
+  Config: Similarity: 0.6
+  Total chunks: 179
+  Avg chunk size: 23.9 tokens
+  Size range: 2 - 92 tokens
+  Processing time: 2700.1 ms
+
+  Config: Similarity: 0.7
+  Total chunks: 213
+  Avg chunk size: 20.1 tokens
+  Size range: 2 - 68 tokens
+  Processing time: 2673.4 ms
+
+  Config: Similarity: 0.8
+  Total chunks: 241
+  Avg chunk size: 17.8 tokens
+  Size range: 2 - 44 tokens
+  Processing time: 2856.3 ms
+
+
+STRUCTURAL CHUNKING:
+------------------------------
+  Config: Size: None, Overlap: None
+  Total chunks: 97
+  Avg chunk size: 44.2 tokens
+  Size range: 17 - 123 tokens
+  Processing time: 27.2 ms
+
+
+RECURSIVE CHUNKING:
+------------------------------
+  Config: Size: None, Overlap: None
+  Total chunks: 97
+  Avg chunk size: 44.2 tokens
+  Size range: 17 - 123 tokens
+  Processing time: 24.8 ms

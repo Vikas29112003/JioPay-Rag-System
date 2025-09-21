@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "description": "Best performing configuration from each chunking strategy",
+    "evaluation_criteria": "Balance of processing speed, chunk quality, and consistency",
+    "efficiency_metric": "chunks_per_second"
+  },
+  "best_performers": [
+    {
+      "Strategy": "Fixed",
+      "Configuration": "Size: 512, Overlap: 64",
+      "Total_Chunks": 97,
+      "Avg_Chunk_Size": 44.2,
+      "Latency_ms": 22.5,
+      "Efficiency_Score": 4306.91
+    },
+    {
+      "Strategy": "Semantic",
+      "Configuration": "Similarity Threshold: 0.7",
+      "Total_Chunks": 213,
+      "Avg_Chunk_Size": 20.1,
+      "Latency_ms": 2673.4,
+      "Efficiency_Score": 79.67
+    },
+    {
+      "Strategy": "Structural",
+      "Configuration": "Default with hierarchy preservation",
+      "Total_Chunks": 97,
+      "Avg_Chunk_Size": 44.2,
+      "Latency_ms": 27.2,
+      "Efficiency_Score": 3564.74
+    },
+    {
+      "Strategy": "Recursive",
+      "Configuration": "Multi-level fallback approach",
+      "Total_Chunks": 97,
+      "Avg_Chunk_Size": 44.2,
+      "Latency_ms": 24.8,
+      "Efficiency_Score": 3905.72
+    },
+    {
+      "Strategy": "LLM-based",
+      "Configuration": "GPT-3.5 with intelligent segmentation",
+      "Total_Chunks": 120,
+      "Avg_Chunk_Size": 45.0,
+      "Latency_ms": 2500.0,
+      "Efficiency_Score": 48.0
+    }
+  ]
+}

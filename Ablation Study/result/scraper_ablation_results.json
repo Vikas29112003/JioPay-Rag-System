@@ -1,0 +1,27 @@
+{
+  "analysis_timestamp": "2025-09-21T16:33:44.521316",
+  "playwright": {
+    "pipeline": "Playwright",
+    "pages": 2,
+    "tokens": 1439,
+    "faqs": 89,
+    "noise_percent": 87.3,
+    "throughput": 12.37,
+    "failure_rate": 0.0
+  },
+  "selenium": {
+    "pipeline": "Selenium",
+    "pages": 3,
+    "tokens": 3692,
+    "faqs": 0,
+    "noise_percent": 0,
+    "throughput": 0.1,
+    "failure_rate": 0.0
+  },
+  "comparison": {
+    "better_token_extraction": "Selenium",
+    "better_faq_extraction": "Playwright",
+    "better_data_quality": "Selenium",
+    "better_throughput": "Playwright"
+  }
+}

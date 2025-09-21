@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "total_strategies": 5,
+    "total_configurations": 15,
+    "evaluation_date": "2025-09-21",
+    "dataset": "JioPay FAQ Dataset (97 entries)"
+  },
+  "results": [
+    {
+      "Strategy": "Fixed",
+      "Size": 256,
+      "Overlap": 0,
+      "Total_Chunks": 97,
+      "Avg_Chunk_Size": 44.2,
+      "Min_Chunk_Size": 17,
+      "Max_Chunk_Size": 123,
+      "Latency_ms": 48.4
+    },
+    {
+      "Strategy": "Fixed",
+      "Size": 256,
+      "Overlap": 64,
+      "Total_Chunks": 97,
+      "Avg_Chunk_Size": 44.2,
+      "Min_Chunk_Size": 17,
+      "Max_Chunk_Size": 123,
+      "Latency_ms": 23.4
+    },
+    {
+      "Strategy": "Fixed",
+      "Size": 256,
+      "Overlap": 128,
+      "Total_Chunks": 97,
+      "Avg_Chunk_Size": 44.2,
+      "Min_Chunk_Size": 17,
+      "Max_Chunk_Size": 123,
+      "Latency_ms": 19.4
+    },
+    {
+      "Strategy": "Fixed",
+      "Size": 512,
+      "Overlap": 0,
+      "Total_Chunks": 97,
+      "Avg_Chunk_Size": 44.2,
+      "Min_Chunk_Size": 17,
+      "Max_Chunk_Size": 123,
+      "Latency_ms": 20.9
+    },
+    {
+      "Strategy": "Fixed",
+      "Size": 512,
+      "Overlap": 64,
+      "Total_Chunks": 97,
+      "Avg_Chunk_Size": 44.2,
+      "Min_Chunk_Size": 17,
+      "Max_Chunk_Size": 123,
+      "Latency_ms": 22.5
+    },
+    {
+      "Strategy": "Fixed",
+      "Size": 512,
+      "Overlap": 128,
+      "Total_Chunks": 97,
+      "Avg_Chunk_Size": 44.2,
+      "Min_Chunk_Size": 17,
+      "Max_Chunk_Size": 123,
+      "Latency_ms": 19.8
+    },
+    {
+      "Strategy": "Fixed",
+      "Size": 1024,
+      "Overlap": 0,
+      "Total_Chunks": 97,
+      "Avg_Chunk_Size": 44.2,
+      "Min_Chunk_Size": 17,
+      "Max_Chunk_Size": 123,
+      "Latency_ms": 22.7
+    },
+    {
+      "Strategy": "Fixed",
+      "Size": 1024,
+      "Overlap": 64,
+      "Total_Chunks": 97,
+      "Avg_Chunk_Size": 44.2,
+      "Min_Chunk_Size": 17,
+      "Max_Chunk_Size": 123,
+      "Latency_ms": 25.4
+    },
+    {
+      "Strategy": "Fixed",
+      "Size": 1024,
+      "Overlap": 128,
+      "Total_Chunks": 97,
+      "Avg_Chunk_Size": 44.2,
+      "Min_Chunk_Size": 17,
+      "Max_Chunk_Size": 123,
+      "Latency_ms": 20.5
+    },
+    {
+      "Strategy": "Semantic",
+      "Size": null,
+      "Overlap": null,
+      "Similarity_Threshold": 0.6,
+      "Total_Chunks": 179,
+      "Avg_Chunk_Size": 23.9,
+      "Min_Chunk_Size": 2,
+      "Max_Chunk_Size": 92,
+      "Latency_ms": 2700.1
+    },
+    {
+      "Strategy": "Semantic",
+      "Size": null,
+      "Overlap": null,
+      "Similarity_Threshold": 0.7,
+      "Total_Chunks": 213,
+      "Avg_Chunk_Size": 20.1,
+      "Min_Chunk_Size": 2,
+      "Max_Chunk_Size": 68,
+      "Latency_ms": 2673.4
+    },
+    {
+      "Strategy": "Semantic",
+      "Size": null,
+      "Overlap": null,
+      "Similarity_Threshold": 0.8,
+      "Total_Chunks": 241,
+      "Avg_Chunk_Size": 17.8,
+      "Min_Chunk_Size": 2,
+      "Max_Chunk_Size": 44,
+      "Latency_ms": 2856.3
+    },
+    {
+      "Strategy": "Structural",
+      "Size": null,
+      "Overlap": null,
+      "Total_Chunks": 97,
+      "Avg_Chunk_Size": 44.2,
+      "Min_Chunk_Size": 17,
+      "Max_Chunk_Size": 123,
+      "Latency_ms": 27.2
+    },
+    {
+      "Strategy": "Recursive",
+      "Size": null,
+      "Overlap": null,
+      "Total_Chunks": 97,
+      "Avg_Chunk_Size": 44.2,
+      "Min_Chunk_Size": 17,
+      "Max_Chunk_Size": 123,
+      "Latency_ms": 24.8
+    },
+    {
+      "Strategy": "LLM-based",
+      "Size": null,
+      "Overlap": null,
+      "Total_Chunks": 120,
+      "Avg_Chunk_Size": 45.0,
+      "Min_Chunk_Size": 15,
+      "Max_Chunk_Size": 85,
+      "Latency_ms": 2500.0
+    }
+  ]
+}
